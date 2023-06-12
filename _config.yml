@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "jaeg00l.git.io"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Kim JaeU"
+name                     : "Kim Jae Woo"
 description              : "개인 블로그"
 url                      : "https://jaeg00l.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -104,8 +104,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Kim JaeU"
-  avatar           : /assets/images/qwer.jpeg"
+  name             : "Kim Jae Woo"
+  avatar           : /assets/images/bio-photo.jpg"
   bio              : "머지는 합병입니다"
   location         : "South Korea, Asia"
   email            : "jw077023@gmail.com"
