@@ -296,7 +296,7 @@ defaults:
       search: true # false 하면 검색이 되지 않음
       toc_sticky: true
       toc_label: 목차
-      toc_icon: "fas fa-laugh-squint"
+      toc_icon: "fa-sharp fa-light fa-bars"
 
 date_format: "%Y년 %m월 %d일"
 
