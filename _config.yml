@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Kim Jaewoo"
-  avatar           : "/assets/images/me.jpg"
+  avatar           : "/assets/images/me3.png"
   bio              : "뭐지.. 합병.."
   location         : "South Korea"
   email            : "jw077023@gmail.com"
@@ -291,5 +291,11 @@ defaults:
       share: true
       related: true
       show_date: true
+      toc: true
+      author_profile: false
+      search: true # false 하면 검색이 되지 않음
+      toc_sticky: true
+      toc_label: 목차
+      toc_icon: "fas fa-laugh-squint"
 
 date_format: "%Y년 %m월 %d일"
