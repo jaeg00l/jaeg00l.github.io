@@ -1,6 +1,6 @@
 ---
 layout: category
-title: /Algorithm/BOJ
+title: /BOJ
 ---
 
 Another sample category page.

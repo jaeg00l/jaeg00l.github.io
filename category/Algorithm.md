@@ -1,6 +1,6 @@
 ---
 layout: category
-title: /Algorithm/Theory
+title: /Algorithm
 ---
 
 Another sample category page.
