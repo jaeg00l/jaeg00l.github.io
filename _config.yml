@@ -278,8 +278,7 @@ compress_html:
   ignore:
     envs: development
 
-
-# Defaults
+# Default
 defaults:
   # _posts
   - scope:
@@ -299,6 +298,11 @@ defaults:
       toc_sticky: true
       toc_label: 목차
       toc_icon: "fa-sharp fa-light fa-bars"
+  # search page
+  - scope:
+      path: "search" # a directory for which these settings apply
+    values:
+      entries_layout: grid
 
 date_format: "%Y년 %m월 %d일 작성됨"
 
