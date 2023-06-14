@@ -298,5 +298,5 @@ defaults:
       toc_label: 목차
       toc_icon: "fa-sharp fa-light fa-bars"
 
-date_format: "%Y년 %m월 %d일"
+date_format: "%Y년 %m월 %d일 작성됨"
 
