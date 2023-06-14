@@ -1,5 +1,8 @@
 # main links
 main:
+  - title: "전체"
+    url: /year-archive/
+
   - title: "알고리즘"
     sublinks:
       - title: "자료구조"
@@ -8,21 +11,25 @@ main:
         url: /categories/#algorithm
       - title: "문제풀이"
         url: /categories/#boj
-  
-  - title: "백엔드"
+  - title: "프론트엔드"
     sublinks:
-      - title: "1"
-      - title: "2"
-      - title: "3"
+      - title: "C/C++"
+      - title: "Python"
+      - title: "JAVA"
+  - title: "Spring"
+    sublinks:
+      # - title: "1"
+      # - title: "2"
+      # - title: "3"
 
   - title: "카테고리"
     url: /categories/
+
   - title: "태그"
     url: /tags/
+
   - title: "검색"
     url: /search/
-  # - title: "연도별"
-  #   url: /year-archive/
 
 docs:
   - title: "대목차1"

@@ -40,11 +40,14 @@ $(document).ready(function() {
       });
     resultdiv.empty();
     resultdiv.prepend('<p class="results__found">'+result.length+' {{ site.data.ui-text[site.locale].results_found | default: "Result(s) found" }}</p>');
+
+    var searchItems = $('<div class="entries-grid"></div>');
+
     for (var item in result) {
       var ref = result[item].ref;
       if(store[ref].teaser){
         var searchitem =
-          '<div class="list__item">'+
+          '<div class="grid__item">'+
             '<article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">'+
               '<h2 class="archive__item-title" itemprop="headline">'+
                 '<a href="'+store[ref].url+'" rel="permalink">'+store[ref].title+'</a>'+
@@ -67,7 +70,9 @@ $(document).ready(function() {
             '</article>'+
           '</div>';
       }
-      resultdiv.append(searchitem);
+      searchItems.append(searchitem);
     }
+
+    resultdiv.append(searchItems);
   });
 });

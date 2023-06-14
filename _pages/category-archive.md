@@ -4,5 +4,5 @@ layout: categories
 permalink: /categories/
 author_profile: true
 sidebar_main: true
-entries_layout: grid
+# entries_layout: grid
 ---
