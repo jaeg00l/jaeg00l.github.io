@@ -24,7 +24,7 @@ description              : "개인 블로그입니다."
 url                      : "https://jaeg00l.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "jaeg00l/jaeg00l.github.io"
-teaser                   : /assets/images/logo.png
+teaser                   : /assets/images/teaser.png
 logo                     : /assets/images/logo.png 
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
@@ -230,6 +230,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-linkpreview
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -238,6 +239,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-linkpreview
 
 
 # Archives

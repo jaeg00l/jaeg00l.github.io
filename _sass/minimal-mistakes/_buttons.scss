@@ -28,6 +28,11 @@
     margin-left: -0.5em; /* override for hidden text*/
   }
 
+  .center-button {
+    display: block;
+    margin: auto;
+  }
+
   /* button colors */
   $buttoncolors:
   (primary, $primary-color),

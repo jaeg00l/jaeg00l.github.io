@@ -71,9 +71,9 @@ layout: default
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
-      <h2 class="page__related-title">{{ "추천 게시물" }}</h2>
+      <h2 class="page__related-title">{{ "😊또 다른 포스팅" }}</h2>
       <div class="grid__wrapper">
-        {% for post in site.related_posts limit:2 %}
+        {% for post in site.related_posts limit:8 %}
           {% include archive-single.html type="grid" %}
         {% endfor %}
       </div>
@@ -81,9 +81,9 @@ layout: default
   {% comment %}<!-- otherwise show recent posts if no related when `related: true` -->{% endcomment %}
   {% elsif page.id and page.related %}
     <div class="page__related">
-      <h2 class="page__related-title">{{ "추천 게시물" }}</h2>
+      <h2 class="page__related-title">{{ "또 다른 포스팅" }}</h2>
       <div class="grid__wrapper">
-        {% for post in site.posts limit:2 %}
+        {% for post in site.posts limit:8 %}
           {% if post.id == page.id %}
             {% continue %}
           {% endif %}
