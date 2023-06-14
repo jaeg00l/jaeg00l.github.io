@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "DevNote"
+title                    : "DevNote🟤"
 title_separator          : "|"
 subtitle                 :  # site tagline that appears below site title in masthead
 name                     : "Kim Jaewoo"
@@ -100,7 +100,7 @@ analytics:
   google:
     tracking_id          : "G-YS11P2MYPM"
     anonymize_ip         : false # true, false (default)
- 
+
 
 # Site Author
 author:
@@ -298,11 +298,6 @@ defaults:
       toc_sticky: true
       toc_label: 목차
       toc_icon: "fa-sharp fa-light fa-bars"
-  # search page
-  - scope:
-      path: "search" # a directory for which these settings apply
-    values:
-      entries_layout: grid
 
 date_format: "%Y년 %m월 %d일 작성됨"
 
