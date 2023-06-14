@@ -20,7 +20,11 @@ layout: default
       <h1 id="page-title" class="page__title">{{ page.title }}</h1>
     {% endunless %}
 
-    {{ content }}
+    <div class="search-results grid">
+      <div id="results" class="results"></div>
+    </div>
+      
+      {{ content }}
 
     {%- assign search_provider = site.search_provider | default: "lunr" -%}
     {%- case search_provider -%}
