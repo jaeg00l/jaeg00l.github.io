@@ -12,6 +12,7 @@ main:
       - title: "문제풀이"
         url: /categories/#boj
   - title: "C/C++"
+    url: /categories/#c-c
   - title: "Python"
   - title: "JAVA"
   - title: "Spring"
