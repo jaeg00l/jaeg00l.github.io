@@ -11,11 +11,9 @@ main:
         url: /categories/#data-structure
       - title: "문제풀이"
         url: /categories/#boj
-  - title: "프론트엔드"
-    sublinks:
-      - title: "C/C++"
-      - title: "Python"
-      - title: "JAVA"
+  - title: "C/C++"
+  - title: "Python"
+  - title: "JAVA"
   - title: "Spring"
     sublinks:
       # - title: "1"
