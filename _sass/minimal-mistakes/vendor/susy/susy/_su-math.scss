@@ -141,8 +141,9 @@
   }
 
   $container: _su-sum($columns, $gutters, $container-spread);
-  @return percentage($span-width / $container);
+  @return percentage($gutters / $container);
 }
+
 
 
 
